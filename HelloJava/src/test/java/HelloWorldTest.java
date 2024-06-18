@@ -1,6 +1,5 @@
 
-
-import main.java.helloworld01.HelloWorld;
+import helloworld01.HelloWorld;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

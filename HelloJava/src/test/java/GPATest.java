@@ -6,8 +6,8 @@ import static org.junit.Assert.assertEquals;
 
 public class GPATest {
     @Test
-    public void testGPA(){
-        double gpa = GPA.calculateGPA(100,100,100);
-        assertEquals(100.0,gpa);
+    public void testGPA() {
+        double gpa = GPA.calculateGPA(100, 100, 100);
+        assertEquals(100.0, gpa, 0.001);
     }
 }

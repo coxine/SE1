@@ -1,11 +1,14 @@
 package oo08;
 
-public class Person{
-    private String  name ;
-    private int     birthday;
+public class Person {
+    private String name;
+    private int birthday;
 
-    public void getName(){
+    public String getName() {
+        return name;
     }
-    public void getAge(){
+
+    public int getAge() {
+        return 2021 - birthday;
     }
 }
